@@ -1,0 +1,9 @@
+Course Conditions
+*	Course conditions is a web application that will allow a User to leave a 
+review of the course conditions when they were present.
+*	It will also allow a user to leave their score. 
+Technology
+*	JS, HTML, CSS, 
+Version
+*	1.0
+
