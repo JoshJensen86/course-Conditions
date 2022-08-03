@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Conditions</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/ios-filled/2x/golf.png"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <p>&#x26F3;</p>
+        <h1>Course Conditions</h1>
+        <p>&#x26F3;</p>
+        <a href="https://utpga.bluegolf.com/bluegolf/utpga/course/membermap.htm">Map Listings</a>
+    </header>
+    
+    <form id="courseDmg" float="left"><h1>Current Conditions &#x26F3;</h1>
+        
+        <input 
+        type='text'
+        id="title"
+        placeholder="What Course?"/>
+        <input 
+        type='text'
+        id="img"
+        placeholder='Photo? (Image URL)'/>
+        <section id="ratings-container">
+            <p>Conditions?:</p>
+            <div id="radio-container">
+                <label for="one">
+                    <input
+                    type="radio"
+                    name="ratings"
+                    value="1"
+                    id="one"/>
+                    1
+                </label>
+                <label for="two">
+                    <input
+                    type="radio"
+                    name="ratings"
+                    value="2"
+                    id="two"/>
+                    2
+                </label>
+                <label for="three">
+                    <input
+                    type="radio"
+                    name="ratings"
+                    value="3"
+                    id="three"/>
+                    3
+                </label>
+                <label for="four">
+                    <input
+                    type="radio"
+                    name="ratings"
+                    value="4"
+                    id="four"/>
+                    4
+                </label>
+                <label for="five">
+                    <input
+                    type="radio"
+                    name="ratings"
+                    value="5"
+                    id="five"/>
+                    5
+                </label>
+                <label for="six">
+                    <input
+                    type="radio"
+                    name="ratings"
+                        value="6"
+                        id="six"/>
+                    6
+                </label>
+                <label for="seven">
+                    <input
+                    type="radio"
+                        name="ratings"
+                        value="7"
+                        id="seven"/>
+                    7
+                </label>
+                <label for="eight">
+                    <input
+                    type="radio"
+                        name="ratings"
+                        value="8"
+                        id="eight"/>
+                        8
+                    </label>
+                    <label for="nine">
+                        <input
+                        type="radio"
+                        name="ratings"
+                        value="9"
+                        id="nine"/>
+                        9
+                </label>
+                <label for="ten">
+                    <input
+                    type="radio"
+                    name="ratings"
+                    value="10"
+                    id="ten"/>
+                    10
+                </label>
+            </div>
+        </section>
+        <button id = "course">Rate Course</button>
+        <div style="position: relative; text-align: center">
+            <h2 style="position: fixed; bottom: 0; width:100%;"> Josh Jensen Foundations 25</>
+            </div>
+        </form>
+        <form>
+            Return Best Conditions
+        </form>
+        <form>
+            Return Worst Conditions
+        </form>
+        
+
+    
+       
+        
+        
+        
+        
+        <div>
+        <section id="courses-container" ></section>
+        </div>
+        <form id="courseScore" float="left"><h1>Your Score?&#x26F3;</h1>
+            
+            
+            <input 
+                type='text'
+                id="score"
+                placeholder='Score'/>
+            <input 
+                type='text'
+                id="name"
+                placeholder="Whats your name?"/>
+            <input 
+                type='text'
+                id="course"
+                placeholder="What Course?"/>
+                <button id="score">Submit
+                </button>
+           </form>
+           <form>
+           Return Best Score
+        </form>
+        <form>
+            Return Worst Score
+        </form>
+           
+        <section id ="scores-container" float="left"></section>
+        
+        </form>
+        
+        
+    </main>
+   
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
